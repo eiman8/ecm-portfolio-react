@@ -1,4 +1,5 @@
 
+
 function HeroSection() {
     return (
         <section id="heroSection" className="hero-section">
@@ -20,6 +21,7 @@ function HeroSection() {
                 <button className="btn btn-primary">Get in Touch</button>
             </div>
             <div className="hero-section-image">
+                <img src="./img/my_hero_image.png" alt="Hero Section" />
                 {/* <img src="./img/hero_img.png" alt="Hero Section" /> */}
             </div>
         </section>
